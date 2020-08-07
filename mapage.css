@@ -49,3 +49,12 @@ section{
     height: 49px;
     text-align: center;
 }
+
+/**********************
+***********************
+*****section droite****/
+
+#droite {
+   float: right;
+   
+}
