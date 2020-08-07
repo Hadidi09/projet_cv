@@ -1,3 +1,51 @@
-h1 {
-    background-color: brown;
+/*****************
+******************
+****header********/
+
+img {
+    width: 386px;
+    height: 329px;
+    border-radius: 2;
+    background-color: chartreuse;
+
+}
+#titre {
+    background-color: rgb(42, 165, 93);
+    width: 804px;
+    height: 329px;
+    text-align: center;
+   
+}
+header {
+    display: flex;
+    flex-direction: row;
+}
+/*************
+**************
+****section****/
+section{
+    width: 386px;
+    height: 1356px;
+    background-color: rgb(20, 220, 120);
+    
+}
+.contact {
+    background-color: darkcyan;
+    width: 386px;
+    height: 49px;
+    margin-top: 0px;
+    text-align: center;
+}
+.propos {
+    background-color: darkcyan;
+    width: 386px;
+    height: 49px;
+    text-align: center;
+
+}
+.loisirs {
+    background-color: darkcyan;
+    width: 386px;
+    height: 49px;
+    text-align: center;
 }
