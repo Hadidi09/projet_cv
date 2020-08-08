@@ -24,7 +24,7 @@ header {
 **************
 ****section****/
 section{
-    width: 386px;
+    width: 1190px;
     height: 1356px;
     background-color: rgb(20, 220, 120);
     
@@ -54,7 +54,7 @@ section{
 ***********************
 *****section droite****/
 
-#droite {
+.cotédroit {
    float: right;
    
 }
