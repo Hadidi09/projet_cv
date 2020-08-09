@@ -14,7 +14,7 @@ img{
     width: 50%;
     margin: 62px 75px 41px 80px;
     border-color: darkgrey;
-    border-radius: 50%;
+    border-radius: 60%;
     
 }
 #titre {
@@ -66,6 +66,14 @@ section{
     
 
 }
+.para1{
+    font-size: 22px;
+    padding-top: 100px;
+    padding-right: 7px;
+    padding-left: 4px;
+    text-align: center;
+    margin: 11px 7px 404px 4px;
+}
 .loisirs {
     background-color:81D4FA;
     width: 386px;
@@ -97,11 +105,19 @@ section{
 ***********************
 *****section droite****/
 
-.cotédroit {
+
+#droite {
    width: 809px;
    height: 1356px;
    background-color:white;
+   display: table;
    padding-left: 146px;
+   
+  
+  
+}
+.format{
+    border-bottom: 2px solid red;
 }
 
 .formation {
@@ -110,7 +126,7 @@ section{
     color: darkblue;
     text-transform: uppercase;
     font-weight: bold;
-    border: solid orange 2px ;
+    
   
 }
 
@@ -120,7 +136,8 @@ section{
     color: darkblue;
     text-transform: uppercase;
     font-weight: bold;
-    border: solid orange 2px ;
+    
+     
   
 }
 
@@ -130,6 +147,6 @@ section{
     color: darkblue;
     text-transform: uppercase;
     font-weight: bold;
-    border: solid orange 2px ;
+   
   
 }
