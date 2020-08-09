@@ -2,52 +2,95 @@
 ******************
 ****header********/
 
-img {
+#photos {
     width: 386px;
     height: 329px;
     border-radius: 2;
-    background-color: chartreuse;
+    background-color:03A9F4;
+    
 
 }
+img{
+    width: 50%;
+    margin: 62px 75px 41px 80px;
+    border-color: darkgrey;
+    border-radius: 50%;
+    
+}
 #titre {
-    background-color: rgb(42, 165, 93);
+    background-color: white;
     width: 804px;
     height: 329px;
     text-align: center;
-   
+    text-transform: uppercase;
+    font-size: 22px;
+    font-style:normal;
+    color: 0BCD4;
 }
 header {
     display: flex;
     flex-direction: row;
 }
+span{
+    border-bottom: 2px solid rgb(0,0,128) ;
+}
 /*************
 **************
-****section****/
+****section gauche****/
 section{
+    display: flex;
+    flex-direction: row;
     width: 1190px;
     height: 1356px;
-    background-color: rgb(20, 220, 120);
+    background-color:29B6F6;
     
 }
 .contact {
-    background-color: darkcyan;
+    background-color: 81D4FA;
     width: 386px;
     height: 49px;
     margin-top: 0px;
     text-align: center;
+    padding-top: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 .propos {
-    background-color: darkcyan;
+    background-color:81D4FA;
     width: 386px;
     height: 49px;
     text-align: center;
+    padding-top: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    
 
 }
 .loisirs {
-    background-color: darkcyan;
+    background-color:81D4FA;
     width: 386px;
     height: 49px;
     text-align: center;
+    padding-top: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+/******aside de gauche****/
+.colonne1{
+    width: 386px;
+    height: 394px;
+    text-align: center;
+    text-align: inherit;
+}
+
+.colonne2{
+    width: 386px;
+    height: 700px;
+}
+
+.colonne3{
+    width: 386px;
+    height: 253px;
 }
 
 /**********************
@@ -55,6 +98,38 @@ section{
 *****section droite****/
 
 .cotédroit {
-   float: right;
-   
+   width: 809px;
+   height: 1356px;
+   background-color:white;
+   padding-left: 146px;
+}
+
+.formation {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: darkblue;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: solid orange 2px ;
+  
+}
+
+.expérience-professionelle {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: darkblue;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: solid orange 2px ;
+  
+}
+
+.recommandation {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: darkblue;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: solid orange 2px ;
+  
 }
