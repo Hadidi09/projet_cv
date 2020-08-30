@@ -1,4 +1,118 @@
+body{
+    width: 1190px;
+    height: 1684px;
+    display: flex;
+    flex-direction: row;
+}
+
 aside{
+    width: 383px;
+    height: 1684px;
     display: flex;
     flex-direction: column;
 }
+
+main{
+    width: 799px;
+    height: 1684px;
+    display: flex;
+    flex-direction: column;
+    background-color: olive;
+      }
+
+      /*******photo************/
+
+      .photo{
+          width: 383px;
+          height: 330px;
+          background-color: lawngreen;
+      }
+
+      /*******Contact************/
+
+      .contact{
+        width: 383px;
+        height: 395px;
+      
+
+      }
+      .contact h3{
+          background-color: grey;
+          margin: 0 auto;
+          text-align:center ;
+      }
+
+       /*******A propos de moi************/
+
+       .A_propos{
+        width: 383px;
+        height: 780px;
+       
+
+      }
+      .A_propos h3{
+        background-color: grey;
+        margin: 0 auto;
+        text-align:center ;
+    }
+
+       /*******Loisirs************/
+
+       .Loisirs{
+        width: 383px;
+        height: 179px;
+        
+
+      }
+      .Loisirs h3{
+        background-color: grey;
+        margin: 0 auto;
+        text-align:center ;
+    }
+
+      /************************
+      **************************
+      *************************/
+
+      header{
+          width: 799px;
+          height: 332px;
+          background-color: orange;
+      }
+      header h1 {
+          padding-top: 113px;
+          padding-left: 64px;
+      }
+      header h2 {
+       
+        padding-left: 64px;
+    }
+
+      .Formations{
+        width: 799px;
+        height: 476px;
+        background-color: rgb(0, 217, 255);
+    }
+    .Formations h3{
+        padding-left: 144px;
+    }
+
+    .Expérience_professionnel{
+        width: 799px;
+        height: 619px;
+        background-color: red;
+    }
+    .Expérience_professionnel h3{
+        padding-left: 144px;
+    }
+
+    .Recommandations{
+        width: 799px;
+        height: 266px;
+        background-color: gray;
+    }
+    .Recommandations h3{
+        padding-left: 144px;
+    }
+
+   
