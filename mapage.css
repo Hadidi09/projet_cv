@@ -25,7 +25,26 @@ main{
       .photo{
           width: 383px;
           height: 330px;
-          background-color: lawngreen;
+          background-color:rgb(129,199,132);
+      }
+      img{
+          margin-top: 61px;
+          margin-bottom: 39px;
+          width: 222px;
+          height: 218px;
+          border-radius: 50%;
+         
+          
+
+      }
+      figure{
+          width: 383px;
+          height: 330px;
+          margin-top: 0px;
+          margin-bottom: 0px;
+          margin-left: 0px;
+          display: block;
+          text-align: center;
       }
 
       /*******Contact************/
@@ -33,6 +52,7 @@ main{
       .contact{
         width: 383px;
         height: 395px;
+        background-color: rgb(129,199,132);
       
 
       }
@@ -47,6 +67,7 @@ main{
        .A_propos{
         width: 383px;
         height: 780px;
+        background-color: rgb(129,199,132);
        
 
       }
@@ -61,6 +82,7 @@ main{
        .Loisirs{
         width: 383px;
         height: 179px;
+        background-color: rgb(129,199,132);
         
 
       }
@@ -68,6 +90,17 @@ main{
         background-color: grey;
         margin: 0 auto;
         text-align:center ;
+    }
+    .icones{
+        width: 383px;
+        height: 157px;
+        margin-bottom: 0px;
+        background-color: rgb(161,136,127);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        f
+
     }
 
       /************************
