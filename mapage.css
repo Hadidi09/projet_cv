@@ -99,7 +99,7 @@ main{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        f
+        
 
     }
 
@@ -110,7 +110,8 @@ main{
       header{
           width: 799px;
           height: 332px;
-          background-color: orange;
+          background-color: khaki;
+         
       }
       header h1 {
           padding-top: 113px;
