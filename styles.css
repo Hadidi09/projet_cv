@@ -53,13 +53,20 @@ main{
         width: 383px;
         height: 395px;
         background-color: rgb(129,199,132);
-      
+       
 
       }
       .contact h3{
+          height: 45px;
           background-color: grey;
-          margin: 0 auto;
-          text-align:center ;
+          margin: 0;
+          font-size: 2em;
+          text-align: center;
+      }
+      .item1{
+          padding-left: 44px;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 100 thin;
       }
 
        /*******A propos de moi************/
@@ -72,10 +79,18 @@ main{
 
       }
       .A_propos h3{
+        height: 45px;  
         background-color: grey;
         margin: 0 auto;
+        font-size: 2em;
         text-align:center ;
     }
+      .mon_propos{
+          margin: 38 44 38 44;
+          text-align: center;
+          font-size: 1.4em;
+          background-color: brown;
+      }
 
        /*******Loisirs************/
 
@@ -87,8 +102,10 @@ main{
 
       }
       .Loisirs h3{
+        height: 45px;
         background-color: grey;
         margin: 0 auto;
+        font-size: 2em;
         text-align:center ;
     }
     .icones{
@@ -114,11 +131,14 @@ main{
          
       }
       header h1 {
+          font-size: 45px;
+          text-transform: uppercase;
           padding-top: 113px;
           padding-left: 64px;
       }
       header h2 {
-       
+        font-size: 25px;
+        text-transform: uppercase;
         padding-left: 64px;
     }
 
@@ -149,4 +169,12 @@ main{
         padding-left: 144px;
     }
 
-   
+   /****************mediaqueries***********/
+/*
+   @media only screen and (max-device-width:480px){
+       body{
+           
+           background-color: rgb(120,144,156);
+           flex-direction: row;  }
+       }
+       */
