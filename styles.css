@@ -8,6 +8,7 @@ body{
 aside{
     width: 383px;
     height: 1684px;
+    background-color: rgb(30,144,255);
     display: flex;
     flex-direction: column;
 }
@@ -15,9 +16,15 @@ aside{
 main{
     width: 799px;
     height: 1684px;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    background-color: olive;
+    
+      }
+      h3{
+        
+          font-size: 2em;
+          text-transform: uppercase;
       }
 
       /*******photo************/
@@ -25,7 +32,7 @@ main{
       .photo{
           width: 383px;
           height: 330px;
-          background-color:rgb(129,199,132);
+        
       }
       img{
           margin-top: 61px;
@@ -52,21 +59,22 @@ main{
       .contact{
         width: 383px;
         height: 395px;
-        background-color: rgb(129,199,132);
+        
        
 
       }
       .contact h3{
           height: 45px;
-          background-color: grey;
+          background-color:rgb(0,255,255);
           margin: 0;
           font-size: 2em;
           text-align: center;
+          color: rgb(30,144,255);
       }
       .item1{
           padding-left: 44px;
           font-family: 'Roboto', sans-serif;
-          font-weight: 100 thin;
+         
       }
 
        /*******A propos de moi************/
@@ -74,13 +82,13 @@ main{
        .A_propos{
         width: 383px;
         height: 780px;
-        background-color: rgb(129,199,132);
+      
        
 
       }
       .A_propos h3{
-        height: 45px;  
-        background-color: grey;
+        color: rgb(30,144,255);
+        background-color: rgb(0,255,255);
         margin: 0 auto;
         font-size: 2em;
         text-align:center ;
@@ -89,21 +97,22 @@ main{
           margin: 38 44 38 44;
           text-align: center;
           font-size: 1.4em;
-          background-color: brown;
+          ;
       }
 
        /*******Loisirs************/
 
        .Loisirs{
         width: 383px;
-        height: 179px;
-        background-color: rgb(129,199,132);
+        height: 191px;
+      
+
         
 
       }
       .Loisirs h3{
-        height: 45px;
-        background-color: grey;
+        color: rgb(30,144,255); 
+        background-color: rgb(0,255,255);
         margin: 0 auto;
         font-size: 2em;
         text-align:center ;
@@ -112,7 +121,7 @@ main{
         width: 383px;
         height: 157px;
         margin-bottom: 0px;
-        background-color: rgb(161,136,127);
+       
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -127,7 +136,7 @@ main{
       header{
           width: 799px;
           height: 332px;
-          background-color: khaki;
+       
          
       }
       header h1 {
@@ -144,29 +153,47 @@ main{
 
       .Formations{
         width: 799px;
-        height: 476px;
-        background-color: rgb(0, 217, 255);
+        height: 463px;
+       
     }
     .Formations h3{
+        margin: 0;
         padding-left: 144px;
+
     }
 
-    .Expérience_professionnel{
+    .Expérience_professionnelle{
         width: 799px;
-        height: 619px;
-        background-color: red;
+        height: 625px;
+       
     }
-    .Expérience_professionnel h3{
+    .Expérience_professionnelle h3{
+        margin: 0;
         padding-left: 144px;
     }
 
     .Recommandations{
         width: 799px;
-        height: 266px;
-        background-color: gray;
+        height: 264px;
+        
+       
     }
     .Recommandations h3{
+        margin: 0;
         padding-left: 144px;
+        
+    }
+    .article{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+     
+    
+    }
+    /***********les articles***********/
+    .article1{
+        display: flex;
+     
     }
 
    /****************mediaqueries***********/
