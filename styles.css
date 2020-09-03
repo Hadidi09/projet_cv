@@ -191,17 +191,31 @@ main{
     
     }
     /***********les articles***********/
-    .article1{
+    .article1,.article2,.article3,.article4,.article5{
         display: flex;
-     
+        justify-content: space-around;
     }
+    .dates{
+        width:40% ;
+    }
+    .dates p{
+        text-align: center;
+    }
+    .textes{
+        width:60% ;
+    }
+    .textes h4{
+        text-transform: uppercase;
+    }
+    .textes h5{
+        font-weight: normal;
+    }
+    .textes h4 h5 p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+    
 
+   
    /****************mediaqueries***********/
-/*
-   @media only screen and (max-device-width:480px){
-       body{
-           
-           background-color: rgb(120,144,156);
-           flex-direction: row;  }
-       }
-       */
+
