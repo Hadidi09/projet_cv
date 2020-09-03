@@ -3,6 +3,7 @@ body{
     height: 1684px;
     display: flex;
     flex-direction: row;
+    font-family: 'Roboto', sans-serif;
 }
 
 aside{
@@ -21,11 +22,14 @@ main{
     flex-direction: column;
     
       }
-      h3{
-        
-          font-size: 2em;
-          text-transform: uppercase;
+  
+      .dev{
+          border-bottom: 2px solid rgb(30,144,255);
       }
+      .prénom{
+          color: rgb(30,144,255);
+      }
+      
 
       /*******photo************/
 
@@ -37,9 +41,9 @@ main{
       img{
           margin-top: 61px;
           margin-bottom: 39px;
-          width: 222px;
-          height: 218px;
+          width:200px;
           border-radius: 50%;
+          
          
           
 
@@ -64,16 +68,16 @@ main{
 
       }
       .contact h3{
-          height: 45px;
+          
           background-color:rgb(0,255,255);
           margin: 0;
-          font-size: 2em;
+          font-size: 1.6em;
           text-align: center;
           color: rgb(30,144,255);
       }
       .item1{
           padding-left: 44px;
-          font-family: 'Roboto', sans-serif;
+         
          
       }
 
@@ -90,7 +94,7 @@ main{
         color: rgb(30,144,255);
         background-color: rgb(0,255,255);
         margin: 0 auto;
-        font-size: 2em;
+        font-size: 1.6em;
         text-align:center ;
     }
       .mon_propos{
@@ -114,7 +118,7 @@ main{
         color: rgb(30,144,255); 
         background-color: rgb(0,255,255);
         margin: 0 auto;
-        font-size: 2em;
+        font-size: 1.6em;
         text-align:center ;
     }
     .icones{
@@ -136,18 +140,20 @@ main{
       header{
           width: 799px;
           height: 332px;
+         
+          
        
          
       }
       header h1 {
           font-size: 45px;
           text-transform: uppercase;
-          padding-top: 113px;
+          padding-top: 100px;
           padding-left: 64px;
       }
       header h2 {
         font-size: 25px;
-        text-transform: uppercase;
+        text-transform:unset;
         padding-left: 64px;
     }
 
@@ -157,8 +163,10 @@ main{
        
     }
     .Formations h3{
-        margin: 0;
-        padding-left: 144px;
+        font-size: 1.6em;
+        text-transform: uppercase;
+        padding-left: 33px;
+        margin-bottom: 0;
 
     }
 
@@ -168,8 +176,11 @@ main{
        
     }
     .Expérience_professionnelle h3{
-        margin: 0;
-        padding-left: 144px;
+        font-size: 1.6em;
+        text-transform: uppercase;
+        padding-left: 33px;
+        margin-bottom: 0;
+     
     }
 
     .Recommandations{
@@ -179,8 +190,11 @@ main{
        
     }
     .Recommandations h3{
-        margin: 0;
-        padding-left: 144px;
+       font-size: 1.6em;
+       text-transform: uppercase;
+       padding-left: 33px;
+       margin-bottom: 0;
+       
         
     }
     .article{
@@ -196,13 +210,14 @@ main{
         justify-content: space-around;
     }
     .dates{
-        width:40% ;
+        width:33% ;
     }
     .dates p{
         text-align: center;
+        float: center;
     }
     .textes{
-        width:60% ;
+        width:55% ;
     }
     .textes h4{
         text-transform: uppercase;
@@ -210,12 +225,36 @@ main{
     .textes h5{
         font-weight: normal;
     }
-    .textes h4 h5 p {
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold;
-    }
     
+    /**********************
+    ******************/
+    .fa-dot-circle{
+        padding-right: 15px;
+        color: rgb(30,144,255);
+        
+    }
+    .fa-circle{
+        padding-right: 15px;
+        color: rgb(30,144,255);
+    }
+   .fa-graduation-cap,.fa-briefcase,.fa-pencil-alt{
+       padding-bottom: 0;
+       margin-bottom: 0;
+       color: rgb(30,144,255);
+       align-self: flex-end;
+      
 
-   
+      
+       
+       
+   }
+   .titres{
+       display: flex;
+       padding-left: 80px;
+       margin-bottom: 0;
+     
+       
+
+   }
    /****************mediaqueries***********/
 
