@@ -1,25 +1,42 @@
 body{
-    width: 1190px;
-    height: 1684px;
+    
+    width:100%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#contenu{
+
+    border: solid 1px rgb(30,144,255);
+    width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     font-family: 'Roboto', sans-serif;
+    
 }
 
+
 aside{
-    width: 383px;
-    height: 1684px;
+    width: 30%;
     background-color: rgb(30,144,255);
     display: flex;
     flex-direction: column;
+    
 }
 
 main{
-    width: 799px;
-    height: 1684px;
-    margin: 0;
+    width: 70%;
+    height: 100%;
+    
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    
+
     
       }
   
@@ -34,14 +51,15 @@ main{
       /*******photo************/
 
       .photo{
-          width: 383px;
-          height: 330px;
+          width: 100%;
+          padding-bottom: 0%;
+          
         
       }
       img{
           margin-top: 61px;
           margin-bottom: 39px;
-          width:200px;
+          width:50%;
           border-radius: 50%;
           
          
@@ -49,29 +67,35 @@ main{
 
       }
       figure{
-          width: 383px;
-          height: 330px;
+          width: 100%;
           margin-top: 0px;
           margin-bottom: 0px;
           margin-left: 0px;
           display: block;
           text-align: center;
       }
+      .trait{
+          border-style: solid;
+          color: rgb(30,144,255);
+          width: 85%;
+      }
+     
 
       /*******Contact************/
 
       .contact{
-        width: 383px;
-        height: 395px;
+        width: 100%;
+        
+        
         
        
 
       }
       .contact h3{
-          
+          margin-top: 0;    
           background-color:rgb(0,255,255);
-          margin: 0;
-          font-size: 1.6em;
+          font-size: 2em;
+          text-transform: capitalize;
           text-align: center;
           color: rgb(30,144,255);
       }
@@ -84,8 +108,10 @@ main{
        /*******A propos de moi************/
 
        .A_propos{
-        width: 383px;
-        height: 780px;
+        width: 100%;
+        flex-grow: 2;
+    
+        
       
        
 
@@ -94,41 +120,50 @@ main{
         color: rgb(30,144,255);
         background-color: rgb(0,255,255);
         margin: 0 auto;
-        font-size: 1.6em;
+        font-size: 2em;
+        text-transform: capitalize;
         text-align:center ;
     }
       .mon_propos{
-          margin: 38 44 38 44;
+       
           text-align: center;
-          font-size: 1.4em;
-          ;
+          font-size: 18px;
+          
       }
 
        /*******Loisirs************/
 
        .Loisirs{
-        width: 383px;
-        height: 191px;
+        width: 100%;
+        flex-grow: 0.3;
+        
+        
+     
+       
+        
+        
       
 
         
 
       }
       .Loisirs h3{
+        margin:0;  
         color: rgb(30,144,255); 
-        background-color: rgb(0,255,255);
-        margin: 0 auto;
-        font-size: 1.6em;
+        background-color: rgb(0,255,255);;
+        font-size: 2em;
+        text-transform: capitalize;
         text-align:center ;
     }
     .icones{
-        width: 383px;
-        height: 157px;
-        margin-bottom: 0px;
-       
+        width: 100%;
+        padding-top: 10%;
         display: flex;
-        justify-content: space-around;
         align-items: center;
+        justify-content: space-around;
+
+       
+        
         
 
     }
@@ -138,8 +173,18 @@ main{
       *************************/
 
       header{
-          width: 799px;
-          height: 332px;
+          width: 100%;
+          display: flex;
+          padding-top: 10%;
+          align-items: flex-start;
+          flex-direction: column;
+          padding-bottom: 6%;
+        
+
+         
+     
+         
+          
          
           
        
@@ -148,22 +193,25 @@ main{
       header h1 {
           font-size: 45px;
           text-transform: uppercase;
-          padding-top: 100px;
+          margin-bottom: 0%;
           padding-left: 64px;
       }
       header h2 {
+          margin-top:0;
         font-size: 25px;
         text-transform:unset;
         padding-left: 64px;
     }
 
       .Formations{
-        width: 799px;
-        height: 463px;
+        width: 100%;
+        
+        
+        
        
     }
     .Formations h3{
-        font-size: 1.6em;
+        font-size: 2em;
         text-transform: uppercase;
         padding-left: 33px;
         margin-bottom: 0;
@@ -171,12 +219,14 @@ main{
     }
 
     .Expérience_professionnelle{
-        width: 799px;
-        height: 625px;
+        width: 100%;
+       
+        
+    
        
     }
     .Expérience_professionnelle h3{
-        font-size: 1.6em;
+        font-size: 2em;
         text-transform: uppercase;
         padding-left: 33px;
         margin-bottom: 0;
@@ -184,20 +234,26 @@ main{
     }
 
     .Recommandations{
-        width: 799px;
-        height: 264px;
+        width: 100%;
+        margin: 0%;
+
+       
+      
+      
         
        
     }
     .Recommandations h3{
-       font-size: 1.6em;
+       font-size: 2em;
        text-transform: uppercase;
        padding-left: 33px;
        margin-bottom: 0;
+
        
         
     }
     .article{
+        margin-bottom: 7%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -208,6 +264,7 @@ main{
     .article1,.article2,.article3,.article4,.article5{
         display: flex;
         justify-content: space-around;
+        margin-bottom: 0%;
     }
     .dates{
         width:33% ;
@@ -218,12 +275,24 @@ main{
     }
     .textes{
         width:55% ;
+        margin: 0;
+        padding: 0;
     }
     .textes h4{
         text-transform: uppercase;
+        margin-bottom: 2%;
+     
     }
     .textes h5{
-        font-weight: normal;
+        margin-top: 0%;
+        margin-bottom: 1%;
+        font-weight: 100;
+        font-size: 0.9em;
+    }
+    .textes p{
+        width: 90%;
+        margin-top: 2%;
+        margin-bottom: 0%;
     }
     
     /**********************
@@ -257,4 +326,16 @@ main{
 
    }
    /****************mediaqueries***********/
-
+ /*  @media screen and (max-height: 728px) {
+    #container {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+    
+     
+    
+      
+    }
+  
+}
+*/
