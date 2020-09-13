@@ -348,12 +348,15 @@ main{
       }
       .contenu{
           width: 90%;
+          margin-left: 5%;
+          margin-right: 5%;
           display:flex ;
           justify-content: flex-start;
           flex-direction: column-reverse;
       }
       aside,main{
           width: 100%;
+         
       }
       .photo{
           width: 38%;
@@ -380,7 +383,7 @@ main{
           text-align: center;
           padding-left: 0%;
       }
- 
+      
      
    } 
    @media (min-width: 480px) and (max-width: 767px){ 
@@ -537,10 +540,10 @@ main{
         
     }
     h3{
-        font-size: 0.3em;
+        font-size: 0.5rem;
     }
     h4{
-        font-size: 0.3em;
+        font-size: 0.5rem;
     }
 
     .item1{
