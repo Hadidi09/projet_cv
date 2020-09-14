@@ -366,7 +366,7 @@ main{
           background: rgb(30,144,255);
           box-shadow: 0 0 0.3em 0.3em rgb(30,144,255);
           border-radius: 7%;
-          border:2px solid rgb(30,144,255);
+          border:2px solid rgb(0,255,255);
           
       }
       header{
@@ -409,7 +409,7 @@ main{
         background: rgb(30,144,255);
         box-shadow: 0 0 0.3em 0.3em rgb(30,144,255);
         border-radius: 7%;
-        border:2px solid rgb(30,144,255);
+        border:2px solid rgb(0,255,255);
         
     }
     header{
@@ -456,7 +456,7 @@ main{
         background: rgb(30,144,255);
         box-shadow: 0 0 0.3em 0.3em rgb(30,144,255);
         border-radius: 7%;
-        border:2px solid rgb(30,144,255);
+        border:2px solid rgb(0,255,255);
         
     }
     header{
@@ -525,7 +525,7 @@ main{
         background: rgb(30,144,255);
         box-shadow: 0 0 0.3em 0.3em rgb(30,144,255);
         border-radius: 7%;
-        border:2px solid rgb(30,144,255);
+        border:2px solid rgb(0,255,255);
         
     }
     header{
