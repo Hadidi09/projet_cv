@@ -13,7 +13,7 @@ body{
 }
 #contenu{
 
-    border: solid 1px rgb(30,144,255);
+    border: solid 1px rgb(92,107,192);
     width: 90%;
     display: flex;
     flex-direction: row;
@@ -25,7 +25,7 @@ body{
 
 aside{
     width:30%;
-    background-color: rgb(30,144,255);
+    background-color:rgb(92,107,192);
     display: flex;
     flex-direction: column;
     
@@ -44,10 +44,10 @@ main{
       }
   
       .dev{
-          border-bottom: 2px solid rgb(30,144,255);
+          border-bottom: 2px solid rgb(92,107,192);
       }
       .prénom{
-          color: rgb(30,144,255);
+          color: rgb(92,107,192);
       }
       
 
@@ -79,7 +79,7 @@ main{
       }
       .trait{
           border-style: solid;
-          color: rgb(30,144,255);
+          color: rgb(92,107,192);
           width: 85%;
       }
      
@@ -97,10 +97,10 @@ main{
       .contact h3{
           margin-top: 0;    
           background-color:rgb(0,255,255);
-          font-size: 1.25em;
+          font-size: 1.5em;
           text-transform: capitalize;
           text-align: center;
-          color: rgb(30,144,255);
+          color: rgb(92,107,192);
       }
       .item1{
           width: 100%;
@@ -125,10 +125,10 @@ main{
 
       }
       .A_propos h3{
-        color: rgb(30,144,255);
+        color: rgb(92,107,192);
         background-color: rgb(0,255,255);
         margin: 0 auto;
-        font-size: 1.25em;
+        font-size: 1.5em;
         text-transform: capitalize;
         text-align:center ;
     }
@@ -147,7 +147,7 @@ main{
 
        .Loisirs{
         width: 100%;
-        flex-grow: 0.3;
+        margin-top: 0%;
         
         
      
@@ -160,24 +160,21 @@ main{
 
       }
       .Loisirs h3{
-        margin:0;  
-        color: rgb(30,144,255); 
+        margin-top: 0%;  
+        color: rgb(92,107,192); 
         background-color: rgb(0,255,255);;
-        font-size: 1.25em;
+        font-size: 1.5em;
         text-transform: capitalize;
         text-align:center ;
     }
     .icones{
         width: 100%;
-        padding-top: 10%;
         display: flex;
-        align-items: center;
-        justify-content: space-around;
+        justify-content: space-around;   
 
-       
-        
-        
-
+    }
+    .icones i{
+        padding-bottom: 3%;
     }
 
       /************************
@@ -187,10 +184,10 @@ main{
       header{
           width: 100%;
           display: flex;
-          padding-top: 10%;
+          padding-top: 2%;
           align-items: flex-start;
           flex-direction: column;
-          padding-bottom: 6%;
+          padding-bottom: 2%;
         
 
          
@@ -210,7 +207,7 @@ main{
       }
       header h2 {
           margin-top:0;
-        font-size: 1.55em;
+        font-size: 1.75em;
         text-transform:unset;
         padding-left: 7%;
     }
@@ -223,7 +220,7 @@ main{
        
     }
     .Formations h3{
-        font-size: 1.25em;
+        font-size: 1.5em;
         text-transform: uppercase;
         padding-left: 3%;
         margin-bottom: 0;
@@ -238,7 +235,7 @@ main{
        
     }
     .Expérience_professionnelle h3{
-        font-size: 1.25em;
+        font-size: 1.5em;
         text-transform: uppercase;
         padding-left: 3%;
         margin-bottom: 0;
@@ -256,7 +253,7 @@ main{
        
     }
     .Recommandations h3{
-       font-size: 1.25em;
+       font-size: 1.5em;
        text-transform: uppercase;
        padding-left: 3%;
        margin-bottom: 0;
@@ -280,6 +277,7 @@ main{
     }
     .dates{
         width:33% ;
+        margin-top: 5%;
     }
     .dates p{
         text-align: center;
@@ -308,22 +306,31 @@ main{
         font-weight: 100;
         font-size: 1em;
     }
-    
+    article h4{
+        margin-top: 8%;
+        margin-bottom: 4%;
+    }
+    article p{
+        margin-top: 0%;
+    }
+    .article article{
+        margin-bottom: -5%;
+    }
     /**********************
     ******************/
     .fa-dot-circle{
         padding-right: 15px;
-        color: rgb(30,144,255);
+        color: rgb(92,107,192);
         
     }
     .fa-circle{
         padding-right: 15px;
-        color: rgb(30,144,255);
+        color: rgb(92,107,192);
     }
    .fa-graduation-cap,.fa-briefcase,.fa-pencil-alt{
        padding-bottom: 0;
        margin-bottom: 0;
-       color: rgb(30,144,255);
+       color: rgb(92,107,192);
        align-self: flex-end;
       
 
@@ -363,8 +370,8 @@ main{
           position: absolute;
           top:3%;
           left: 45%;
-          background: rgb(30,144,255);
-          box-shadow: 0 0 0.3em 0.3em rgb(30,144,255);
+          background: rgb(92,107,192);
+          box-shadow: 0 0 0.3em 0.3em rgb(92,107,192);
           border-radius: 7%;
           border:2px solid rgb(0,255,255);
           
@@ -383,7 +390,7 @@ main{
           text-align: center;
           padding-left: 0%;
       }
-      
+     
      
    } 
    @media (min-width: 480px) and (max-width: 767px){ 
@@ -406,8 +413,8 @@ main{
         position: absolute;
         top:3%;
         left: 55%;
-        background: rgb(30,144,255);
-        box-shadow: 0 0 0.3em 0.3em rgb(30,144,255);
+        background: rgb(92,107,192);
+        box-shadow: 0 0 0.3em 0.3em rgb(92,107,192);
         border-radius: 7%;
         border:2px solid rgb(0,255,255);
         
@@ -435,7 +442,7 @@ main{
  @media (min-width: 280px) and (max-width: 479px){ 
     body{
         display: block;
-        font-size: 1em;
+        font-size: 0.8em;
         box-sizing: border-box;
         
     }
@@ -449,21 +456,21 @@ main{
         width: 100%;
     }
     .photo{
-        width: 37%;
+        width: 27%;
         position: absolute;
-        top:3%;
-        left: 55%;
-        background: rgb(30,144,255);
-        box-shadow: 0 0 0.3em 0.3em rgb(30,144,255);
+        top:2%;
+        left: 59%;
+        background: rgb(92,107,192);
+        box-shadow: 0 0 0.3em 0.3em rgb(92,107,192);
         border-radius: 7%;
         border:2px solid rgb(0,255,255);
         
     }
     header{
-        width: 45%;
-        padding-bottom: 0%;
+        width: 58%;
+        padding-bottom: 5%;
         float: left;
-        font-size: 0.5em;
+        font-size: 0.8em;
     }
     h1,h2{
         padding-left: 2%;
@@ -482,38 +489,48 @@ main{
     .mon_propos{
         margin-bottom: 8%;
     }
-    .article1,.article2,.article3,.article4,.article5{
+   /* .article1,.article2,.article3,.article4,.article5{
+        width: 80%;
         display: flex;
-       flex-direction: column;
-       align-items: center;
-    }
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+        align-items: center;
+        
+    }*/
+    
     .dates{
-        position: relative;
-        left: -20%;
-        width: 100%;
-        
-      
-        
-       /* border: 2px solid rgb(0,255,255);*/
+       width: 20%;
+       border-radius: 15%;
+       box-shadow: 0 0 5px 5px rgb(92,107,192);
+       align-self: flex-start;
+       margin-top: 15%;
     }
     .dates p{
-        text-align: center;
-        
+        margin-bottom: 0%;
+    }
+    h3{
+        font-size: 0.8em;
     }
     .textes{
-        width: 100%;
-       /* border: 2px solid rgb(30,144,255);*/
+        margin-top: 5%;
+        box-shadow: 0 0 5px 5px rgb(92,107,192);
+        border-radius: 15%;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+    .textes h4{
+        margin-top: 10%;
+        font-size: 0.7rem;
     }
     .textes p{
-        width: 60%;
-        position: relative;
-        left: 28%;
-        text-align: center;
-        
+        width: 90%;
+        margin-left: 8%;
     }
     h4{
-        margin-top: 0%;
-        text-align: center;
+       margin-top: 0%;
+       text-align: center;
+       font-size: 0.8em;
     }
     h5{
         text-align: center;
@@ -524,20 +541,21 @@ main{
         margin-bottom: 0%;
         display: flex;
         flex-direction: column;
-        align-items: center;
-       
-      
-        
+        align-items: flex-start;      
     }
-    .article p{
-        width: 100%;
-        font-size: 0.6rem;
-        margin-top: 0%;
+    .article article{
+        width: 80%;
+        font-size: 0.8rem;
+        margin-bottom: 0%;
+        padding-left: 10%;
         
     }
     .article h4{
         margin-top: 3%;
         margin-bottom: 0%;
+    }
+    .article article h4{
+        text-align: start;
     }
 
    
@@ -563,8 +581,8 @@ main{
         position: absolute;
         top:3%;
         left: 55%;
-        background: rgb(30,144,255);
-        box-shadow: 0 0 0.3em 0.3em rgb(30,144,255);
+        background: rgb(92,107,192);
+        box-shadow: 0 0 0.3em 0.3em rgb(92,107,192);
         border-radius: 7%;
         border:2px solid rgb(0,255,255);
         
@@ -602,6 +620,63 @@ main{
         margin-bottom: 8%;
     }
 
-   
+    .dates{
+        width: 20%;
+        border-radius: 15%;
+        box-shadow: 0 0 5px 5px rgb(92,107,192);
+        align-self: flex-start;
+        margin-top: 15%;
+     }
+     .dates p{
+         margin-bottom: 0%;
+     }
+     h3{
+         font-size: 0.8em;
+     }
+     .textes{
+         margin-top: 5%;
+         box-shadow: 0 0 5px 5px rgb(92,107,192);
+         border-radius: 15%;
+         font-family: 'Roboto', sans-serif;
+         font-weight: 400;
+     }
+     .textes h4{
+         margin-top: 10%;
+         font-size: 0.7rem;
+     }
+     .textes p{
+         width: 90%;
+         margin-left: 8%;
+     }
+     h4{
+        margin-top: 0%;
+        text-align: center;
+        font-size: 0.8em;
+     }
+     h5{
+         text-align: center;
+     }
+ 
+     .article{
+         width: 100%;
+         margin-bottom: 0%;
+         display: flex;
+         flex-direction: column;
+         align-items: flex-start;      
+     }
+     .article article{
+         width: 80%;
+         font-size: 0.8rem;
+         margin-bottom: 0%;
+         padding-left: 10%;
+         
+     }
+     .article h4{
+         margin-top: 3%;
+         margin-bottom: 0%;
+     }
+     .article article h4{
+         text-align: start;
+     }
  } 
  
