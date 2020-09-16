@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     
 }
 #contenu{
@@ -37,6 +38,7 @@ main{
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
    
     
 
@@ -133,15 +135,17 @@ main{
         text-align:center ;
     }
       .mon_propos{
-          width: 90%;
+          width: 80%;
           margin-top: 8%;
-          margin-left: 5%;
-          margin-right: 5%;
+          margin-left: 10%;
+          margin-right: 6%;
           margin-bottom: 0%;
-          text-align: center;
+          text-align: justify;
           font-size: 0.9em;
           
+         
       }
+     
 
        /*******Loisirs************/
 
@@ -296,14 +300,14 @@ main{
     .textes h5{
         margin-top: 0%;
         margin-bottom: 1%;
-        font-weight: 100;
+        font-weight: 400;
         font-size: 1em;
     }
     .textes p{
         width: 90%;
         margin-top: 2%;
         margin-bottom: 0%;
-        font-weight: 100;
+        font-weight: 400;
         font-size: 1em;
     }
     article h4{
@@ -455,6 +459,7 @@ main{
     aside,main{
         width: 100%;
     }
+   
     .photo{
         width: 27%;
         position: absolute;
@@ -489,15 +494,7 @@ main{
     .mon_propos{
         margin-bottom: 8%;
     }
-   /* .article1,.article2,.article3,.article4,.article5{
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        margin-left: 10%;
-        margin-right: 10%;
-        align-items: center;
-        
-    }*/
+  
     
     .dates{
        width: 20%;
@@ -516,8 +513,7 @@ main{
         margin-top: 5%;
         box-shadow: 0 0 5px 5px rgb(92,107,192);
         border-radius: 15%;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
+       
     }
     .textes h4{
         margin-top: 10%;
@@ -577,7 +573,7 @@ main{
         width: 100%;
     }
     .photo{
-        width: 37%;
+        width: 30%;
         position: absolute;
         top:3%;
         left: 55%;
@@ -588,7 +584,7 @@ main{
         
     }
     header{
-        width: 47%;
+        width: 40%;
         padding-bottom: 0%;
         float: left;
         font-size: 0.8em;
@@ -598,19 +594,17 @@ main{
         padding-left: 0%;
         
     }
-    h3{
-        font-size: 0.8em;
+    .titres{
+        width: 100%;
+        padding-left: 0%;
     }
-    h4{
-        font-size: 0.8em;
-    }
-
+ 
     .item1{
         width: 100%;
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        padding-left: 10%;
+        padding-left: 3%;
         font-size: 0.6rem;
         text-align: center;
        
@@ -618,6 +612,7 @@ main{
     }
     .mon_propos{
         margin-bottom: 8%;
+        font-size: 0.6rem;
     }
 
     .dates{
@@ -630,10 +625,9 @@ main{
      .dates p{
          margin-bottom: 0%;
      }
-     h3{
-         font-size: 0.8em;
-     }
+     
      .textes{
+         width: 71%;
          margin-top: 5%;
          box-shadow: 0 0 5px 5px rgb(92,107,192);
          border-radius: 15%;
@@ -645,7 +639,7 @@ main{
          font-size: 0.7rem;
      }
      .textes p{
-         width: 90%;
+         width: 80%;
          margin-left: 8%;
      }
      h4{
@@ -656,7 +650,6 @@ main{
      h5{
          text-align: center;
      }
- 
      .article{
          width: 100%;
          margin-bottom: 0%;
