@@ -556,7 +556,7 @@ main{
 
    
  } 
- @media (min-width: 130px) and (max-width: 279px){ 
+ @media (min-width: 168px) and (max-width: 279px){ 
     body{
         display: block;
         font-size: 0.6em;
