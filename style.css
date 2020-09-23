@@ -432,8 +432,8 @@ article p{
     .dates{
        width: 40%;
        border-radius: 30%;
-       box-shadow: 0 0 5px 5px rgb(92,107,192);
-       border: 2px solid rgb(92,107,192);
+       /*box-shadow: 0 0 5px 5px rgb(92,107,192);
+       border: 2px solid rgb(92,107,192);*/
        padding-bottom: 0%;
        padding-top: 2%;
 
@@ -451,13 +451,13 @@ article p{
     }
     .textes{
         
-        margin-top: 3%;
-        box-shadow: 0 0 7px 7px rgb(92,107,192);
-        border-radius: 10%;
+        margin-top: 0%;
+       /* box-shadow: 0 0 7px 7px rgb(92,107,192);
+        border-radius: 10%;*/
        
     }
     .textes h4{
-        margin-top: 10%;
+        margin-top: 2%;
         font-size: 0.7rem;
     }
     .textes p{
@@ -559,10 +559,11 @@ article p{
     .dates{
         width: 50%;
         border-radius: 30%;
-        box-shadow: 0 0 5px 5px rgb(92,107,192);
-        border: 2px solid rgb(92,107,192);
+       /* box-shadow: 0 0 5px 5px rgb(92,107,192);
+        border: 2px solid rgb(92,107,192);*/
         padding-bottom: 0%;
         padding-top: 2%;
+        margin-bottom: 0%;
  
        
         
@@ -579,14 +580,14 @@ article p{
      
      .textes{
         width: 71%;
-        margin-top: 5%;
-        box-shadow: 0 0 5px 5px rgb(92,107,192);
-        border-radius: 15%;
+        margin-top: 0%;
+       /* box-shadow: 0 0 5px 5px rgb(92,107,192);
+        border-radius: 15%;*/
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
      }
      .textes h4{
-        margin-top: 10%;
+        margin-top: 2%;
         font-size: 0.7rem;
      }
      .textes p{
