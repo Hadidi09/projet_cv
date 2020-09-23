@@ -559,8 +559,6 @@ article p{
     .dates{
         width: 50%;
         border-radius: 30%;
-       /* box-shadow: 0 0 5px 5px rgb(92,107,192);
-        border: 2px solid rgb(92,107,192);*/
         padding-bottom: 0%;
         padding-top: 2%;
         margin-bottom: 0%;
@@ -581,8 +579,6 @@ article p{
      .textes{
         width: 71%;
         margin-top: 0%;
-       /* box-shadow: 0 0 5px 5px rgb(92,107,192);
-        border-radius: 15%;*/
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
      }
